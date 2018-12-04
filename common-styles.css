@@ -1,6 +1,7 @@
  html {
 	background-color: rgb(15, 59, 130);
-	 background-image: radial-gradient(farthest-corner at 60% 55%, rgb(15, 59, 130), rgb(6, 23, 51));
+	height: 100%;
+	 background-image: linear-gradient(rgb(15, 59, 130), rgb(6, 23, 51));
  }
  
  /*Taken from html05, case 4, minus the horrible pink*/
@@ -25,3 +26,38 @@ body {
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
 }
+
+/*   Navigation Styles   */
+header {
+	background-color: rgb(30, 30, 206);
+	height: 5%;
+	width: 100%;
+}
+
+nav {
+	text-align: center;
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+header nav ul li {
+	background-color: rgb(30, 30, 206);
+	padding: 0px 10px;
+	display: inline;
+}
+
+header nav ul li a {
+	color: white;
+	font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+	 color: black;
+	background-color: rgb(163, 163, 255);
+}
+
+
+
