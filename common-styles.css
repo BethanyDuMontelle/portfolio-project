@@ -1,0 +1,27 @@
+ html {
+	background-color: rgb(15, 59, 130);
+	 background-image: radial-gradient(farthest-corner at 60% 55%, rgb(15, 59, 130), rgb(6, 23, 51));
+ }
+ 
+ /*Taken from html05, case 4, minus the horrible pink*/
+body {
+	width: 95%;
+	min-width: 320px;
+	max-width: 1080px;
+	
+	height: 100%;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	background-color: white;
+	box-shadow: rgb(51, 51, 51) 10px 0px 50px, rgb(51, 51, 51) -10px 0px 50px;
+	
+	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
