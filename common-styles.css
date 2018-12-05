@@ -1,7 +1,7 @@
  html {
 	background-color: rgb(15, 59, 130);
 	height: 100%;
-	 background-image: linear-gradient(rgb(15, 59, 130), rgb(6, 23, 51));
+	 background-image: linear-gradient(rgb(117, 170, 255), rgb(13, 39, 81));
  }
  
  /*Taken from html05, case 4, minus the horrible pink*/
@@ -15,7 +15,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	
-	background-color: white;
+	background-color: rgb(212, 247, 246);
 	box-shadow: rgb(51, 51, 51) 10px 0px 50px, rgb(51, 51, 51) -10px 0px 50px;
 	
 	
@@ -27,11 +27,17 @@ body {
 	flex-flow: row wrap;
 }
 
-/*   Navigation Styles   */
+/*   Header Styles   */
 header {
 	background-color: rgb(30, 30, 206);
-	height: 5%;
+	height: 150px;
 	width: 100%;
+}
+
+header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 nav {
@@ -58,6 +64,7 @@ header nav ul li a:hover {
 	 color: black;
 	background-color: rgb(163, 163, 255);
 }
+
 
 
 
