@@ -1,0 +1,35 @@
+/* Section Styles */
+section {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	
+	background: linear-gradient(rgb(74, 104, 94), rgb(154, 224, 201));
+	
+	border: 5px solid rgb(91, 145, 144);
+	border-radius: 20px;
+	
+	padding-bottom: 8%;
+	
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+}
+
+section p, address, section p a{
+	font-size: 1.0em;
+}
+
+section p a:hover {
+	color: blue;
+}
+
+section p a {
+	color: white;
+}
+
+/* Used to put space between the 2 sections */
+div {
+	width: 100%;
+}
