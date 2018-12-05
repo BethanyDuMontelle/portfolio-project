@@ -17,8 +17,10 @@ section#contact_info {
 	
 	background-color: rgb(174, 149, 229);
 	background-image: radial-gradient(rgb(125, 72, 242) 65%, rgb(175, 146, 239) 35%);
-	height: 550px;
-	width: 300px;
+	width: 20%;
+	height: 50%;
+	min-height: 550px;
+	min-width: 300px;
 	
 	border: 8px double rgb(35, 6, 99);
 	border-radius: 10px;
