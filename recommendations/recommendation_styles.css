@@ -1,1 +1,40 @@
  
+section {
+	width: 95%;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	text-align: center;
+	
+	color: white;
+	
+	background: linear-gradient( rgb(38, 1, 147), rgb(111, 70, 234));
+	
+	border: 5px solid rgb(14, 32, 38);
+	border-radius: 10px;
+}
+
+section p, section img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+section p a{
+	font-size: 1.2em;
+	color: white;
+}
+
+section p a:hover {
+	color: rgb(155, 122, 255);
+}
+
+section img {
+	display: block;
+	float: right;
+}
+
+/* Used to separate the div elements */
+div {
+	width: 100%;
+}
