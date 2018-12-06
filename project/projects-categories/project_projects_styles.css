@@ -1,0 +1,66 @@
+
+body {
+	text-align: center;
+}
+
+/* Aside Nav Styles */
+
+aside {
+	background-color: rgb(27, 69, 137);
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	font-size: 1.2em;
+	
+	border: 2px dashed rgb(107, 150, 219);
+}
+
+aside#art_aside, aside#website_aside {
+	width: 15%;
+	height: 22%;
+	min-width: 150px;
+	min-height: 185px;
+}
+
+aside#program_aside {
+	width: 20%;
+	height: 30%;
+	min-width: 200px;
+	min-height: 300px;
+}
+
+aside p a {
+	text-decoration: none;
+}
+
+aside h4 a, aside p a {
+	color: white;
+}
+
+aside h4 a:hover, aside p a:hover {
+	text-decoration: underline;
+	color: rgb(4, 0, 255);
+}
+
+/* Section Styles */
+section {
+	width: 95%;
+}
+
+/* Div Styles */
+div {
+	-webkit-order: 100;
+	order: 100;
+	width: 100%;
+	
+	font-size: 1.1em;
+}
+
+div p a {
+	color: rgb(61, 12, 124);
+}
+
+div p a:hover {
+	color: rgb(121, 34, 232);
+}
