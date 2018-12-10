@@ -1,70 +1,119 @@
- html {
-	background-color: rgb(15, 59, 130);
-	height: 100%;
-	 background-image: linear-gradient(rgb(117, 170, 255), rgb(13, 39, 81));
- }
  
- /*Taken from html05, case 4, minus the horrible pink*/
-body {
-	width: 95%;
-	min-width: 320px;
-	max-width: 1080px;
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
+*/
+@media only screen and (max-width: 480px) {
+	body{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		
+		background-color: rgb(212, 247, 246);
+	}
 	
-	height: 100%;
-	
-	margin-left: auto;
-	margin-right: auto;
-	
-	background-color: rgb(212, 247, 246);
-	box-shadow: rgb(51, 51, 51) 10px 0px 50px, rgb(51, 51, 51) -10px 0px 50px;
-	
-	
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
+	nav ul {
+      display: none;
+   }
+   
+   header img {
+	   display: block;
+	   float: left;
+   }
+   
+   a#navicon:hover+ul, nav ul:hover {
+      display: block;
+	  list-style: none;
+	  font-size: 1.4em;
+	  text-align: left;
+	  clear: both;
+   }
+   
+   header div img {
+	   display: none;
+   }
+   
+   h2, p, section, aside {
+	   clear: both;
+   }
 }
 
-/*   Header Styles   */
-header {
-	background-color: rgb(30, 30, 206);
-	height: 150px;
-	width: 100%;
-}
+/* =================================================
+	Tablet and Desktop Styles: 481 pixels and greater
+   =================================================
+*/ 
+@media only screen and (min-width: 481px) {
+	html {
+		background-color: rgb(15, 59, 130);
+		height: 100%;
+		 background-image: linear-gradient(rgb(117, 170, 255), rgb(13, 39, 81));
+	 }
+	 
+	 a#navicon {
+		 display: none;
+	 }
+	 
+	/* Taken from html05, case 4, minus the horrible pink*/ 
+	body {
+		width: 95%;
+		min-width: 320px;
+		max-width: 1080px;
+		
+		height: 100%;
+		
+		margin-left: auto;
+		margin-right: auto;
+		
+		background-color: rgb(212, 247, 246);
+		box-shadow: rgb(51, 51, 51) 10px 0px 50px, rgb(51, 51, 51) -10px 0px 50px;
+		
+		
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+	}
 
-header img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
+	 /*   Header Styles   */ 
+	header {
+		background-color: rgb(30, 30, 206);
+		height: 150px;
+		width: 100%;
+	}
 
-nav {
-	text-align: center;
-	list-style: none;
-}
+	header img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-nav a {
-	text-decoration: none;
-}
+	nav {
+		text-align: center;
+		list-style: none;
+	}
 
-header nav ul li {
-	background-color: rgb(30, 30, 206);
-	padding: 0px 10px;
-	display: inline;
-}
+	nav a {
+		text-decoration: none;
+	}
 
-header nav ul li a {
-	color: white;
-	font-size: 1.2em;
-}
+	header nav ul li {
+		background-color: rgb(30, 30, 206);
+		padding: 0px 10px;
+		display: inline;
+	}
 
-header nav ul li a:hover {
-	 color: black;
-	background-color: rgb(163, 163, 255);
-}
+	header nav ul li a {
+		color: white;
+		font-size: 1.2em;
+	}
 
+	header nav ul li a:hover {
+		 color: black;
+		background-color: rgb(163, 163, 255);
+	}
+}
 
 
 

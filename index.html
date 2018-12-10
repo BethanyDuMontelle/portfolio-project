@@ -6,22 +6,26 @@
 		Author: Bethany DuMontelle
         -->
 	<meta charset="utf-8" />
+	<!-- Taken from https://stackoverflow.com/questions/7859336/why-are-my-css3-media-queries-not-working-on-mobile-devices
+		It also made me realize why html05 stuff wasn't working, we forgot this piece-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bethany's Portfolio - Home</title>
-    <link href="common_styles.css" rel="stylesheet" />
-    <link href="index_styles.css" rel="stylesheet" />
+    <link href="common_styles.css" rel="stylesheet"/>
+    <link href="index_styles.css" rel="stylesheet"/>
   </head>
   
   <body>
   
 	<header>
-		<img src="title.jpg" alt="Bethany's Portfolio" />
+		<div><img src="title.jpg" alt="Bethany's Portfolio" /></div>
 		<nav>
+			<a href="#" id="navicon"><img src="navicon.png" alt="" /></a>
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="education/education.html">Education</a></li>
 				<li><a href="project/project_list.html">Projects</a></li>
 				<li><a href="recommendations/recommendations.html">Recommendations</a></li>
-				<li><a href="skills-interests/skills_interests.html">Skills and Interests</a></li>
+				<li><a href="skills_interests/skills_interests.html">Skills and Interests</a></li>
 			</ul>
 		</nav>
 	</header>

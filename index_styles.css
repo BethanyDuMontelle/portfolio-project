@@ -44,3 +44,9 @@ section#contact_info a, section#contact_info p{
 section#contact_info a:hover {
 	color: blue;
 }
+
+/*adding a small thing to the mobile website*/
+@media only screen and (max-width: 480px) {
+	section#contact_info a {
+		background-color: black;
+	}

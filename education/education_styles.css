@@ -5,6 +5,7 @@ section {
 	margin-right: auto;
 	width: 95%;
 	
+	background-color: rgb(74, 104, 94);
 	background: linear-gradient(rgb(74, 104, 94), rgb(154, 224, 201));
 	
 	border: 5px solid rgb(91, 145, 144);
@@ -32,4 +33,11 @@ section p a {
 /* Used to put space between the 2 sections */
 div {
 	width: 100%;
+}
+
+/*Slight changes made to make the mobile have space between the 2 sections*/
+@media only screen and (max-width: 480px) {
+	div {
+		
+	}
 }
