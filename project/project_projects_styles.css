@@ -81,3 +81,28 @@ div p a {
 div p a:hover {
 	color: rgb(121, 34, 232);
 }
+
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
+*/
+@media only screen and (max-width: 480px) {
+	table#normal_view {
+		display: none;
+	}
+	
+	aside {
+		display: none;
+	}
+}
+
+/* =================================================
+	Tablet and Desktop Styles: 481 pixels and greater
+   =================================================
+*/ 
+@media only screen and (min-width: 481px) {
+	table#mobile_view {
+		display: none;
+	}
+	
+}
