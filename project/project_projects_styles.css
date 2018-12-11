@@ -10,6 +10,8 @@ aside {
 	
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	
 	font-size: 1.2em;
 	
@@ -43,15 +45,30 @@ aside h4 a:hover, aside p a:hover {
 	color: rgb(4, 0, 255);
 }
 
-/* Section Styles */
-section {
+/* Table Styles */
+table {
 	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+table, tr, td {
+	border: 3px solid blue;
+}
+
+table tr td img {
+	width: 50%;
+}
+
+table caption {
+	font-size: 2em;
 }
 
 /* Div Styles */
 div {
-	-webkit-order: 100;
-	order: 100;
+	-webkit-order: 99;
+	order: 99;
 	width: 100%;
 	
 	font-size: 1.1em;
