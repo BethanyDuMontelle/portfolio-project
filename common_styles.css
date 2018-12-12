@@ -29,6 +29,10 @@
 	  clear: both;
    }
    
+   header nav ul li a {
+	   color: rgb(83, 66, 244);
+   }
+   
    header div img {
 	   display: none;
    }
@@ -56,7 +60,6 @@
 	/* Taken from html05, case 4, minus the horrible pink*/ 
 	body {
 		width: 95%;
-		min-width: 320px;
 		max-width: 1080px;
 		
 		/*Idea from https://www.kirupa.com/html5/make_body_take_up_full_browser_height.htm
@@ -81,7 +84,7 @@
 	 /*   Header Styles   */ 
 	header {
 		background-color: rgb(30, 30, 206);
-		height: 150px;
+		min-height: 150px;
 		width: 100%;
 		margin-bottom: 20px;
 	}

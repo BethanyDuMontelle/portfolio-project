@@ -1,1 +1,12 @@
- 
+table tr td p a {
+	color: rgb(89, 26, 173);
+}
+
+video {
+	width: 30%;
+	min-width: 200px;
+}
+
+table:nth-of-type(3), table:nth-of-type(4) {
+	margin-top: 10px;
+}
