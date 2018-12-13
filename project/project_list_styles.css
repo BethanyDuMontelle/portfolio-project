@@ -9,9 +9,10 @@ section {
 	margin-right: auto;
 	
 	background-color: rgb(36, 80, 175);
-	width: 25%;
-	height: 25%;
-	min-height: 230px;
+	width: 50%;
+	height: 50%;
+	
+	/*Prevents text from overflowing if the screen is very small*/
 	min-width: 100px;
 	
 	text-align: center;
@@ -23,10 +24,5 @@ section p a {
 
 section p a:hover {
 	color: blue;
-}
-
-/*Splits the paragraph from the section*/
-div {
-	width: 100%;
 }
 

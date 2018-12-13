@@ -1,12 +1,15 @@
+/*Sets the color of the links, sets the width of the video, and spaces the tables*/
 table tr td p a {
 	color: rgb(89, 26, 173);
 }
 
 video {
 	width: 30%;
+	
+	/*sets the minumum so the controls aren't hidden on any screen*/
 	min-width: 200px;
 }
 
 table:nth-of-type(3), table:nth-of-type(4) {
-	margin-top: 10px;
+	margin-top: 1%;
 }

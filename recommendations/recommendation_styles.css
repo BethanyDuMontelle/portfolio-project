@@ -1,4 +1,4 @@
- 
+/*Section styles*/ 
 section {
 	width: 95%;
 	
@@ -17,8 +17,8 @@ section {
 }
 
 section p, section img {
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 }
 
 section p a{
@@ -33,16 +33,16 @@ section p a:hover {
 section img {
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 1%;
 }
 
 section:nth-of-type(2) {
-	margin-top: 10px;
+	margin-top: 1%;
 }
 
 /*Removes the image from mobile*/
 @media only screen and (max-width: 480px) {
-	section img {
+	section img, p#mobile_hide {
 		display: none;
 	}
 }

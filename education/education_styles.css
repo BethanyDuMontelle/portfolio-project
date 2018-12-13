@@ -31,16 +31,20 @@ section p a {
 }
 
 section:nth-of-type(2) {
-	margin-top: 10px;
+	margin-top: 1%;
 }
 
 section:nth-of-type(2) img {
 	width: 50%;
 }
 
-/*removes photos to make it less cluttered*/
+/*removes photos to make it less cluttered and sets overflows if your screen is that small*/
 @media only screen and (max-width: 480px) {
 	img {
 		display: none;
+	}
+	
+	section {
+		overflow: auto;
 	}
 }

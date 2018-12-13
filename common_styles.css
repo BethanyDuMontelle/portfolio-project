@@ -1,9 +1,33 @@
- 
+/*General Footer Styles*/
+footer {
+	background-color: rgb(4, 57, 61);
+	color: rgb(212, 247, 246);
+	width: 100%;
+	text-align: center;
+	
+	-webkit-order: 100;
+	order: 100;
+	
+	margin-top: 2%;
+}
+
+footer a {
+	text-decoration: none;
+	color: rgb(212, 247, 246);
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: blue;
+} 
+
+
 /* =============================
 	Mobile Styles: 0 - 480 pixels
    =============================
 */
 @media only screen and (max-width: 480px) {
+	/*Body styles*/
 	body{
 		width: 100%;
 		margin-left: auto;
@@ -12,6 +36,7 @@
 		background-color: rgb(212, 247, 246);
 	}
 	
+	/*Header/nav styles*/
 	nav ul {
       display: none;
    }
@@ -37,12 +62,9 @@
 	   display: none;
    }
    
+   /*Clears the navicon*/
    h2, p, section, aside, table {
 	   clear: both;
-   }
-   
-   footer {
-	   width: 100%;
    }
 }
 
@@ -51,6 +73,7 @@
    =================================================
 */ 
 @media only screen and (min-width: 481px) {
+	/*html/body styles*/
 	html {
 		background-color: rgb(15, 59, 130);
 		min-height: 100%;
@@ -61,7 +84,6 @@
 		 display: none;
 	 }
 	 
-	/* Taken from html05, case 4, minus the horrible pink*/ 
 	body {
 		width: 95%;
 		max-width: 1080px;
@@ -85,12 +107,11 @@
 		flex-flow: row wrap;
 	}
 
-	 /*   Header Styles   */ 
+	 /*   Header/Nav Styles   */ 
 	header {
 		background-color: rgb(30, 30, 206);
-		min-height: 150px;
 		width: 100%;
-		margin-bottom: 20px;
+		margin-bottom: 2%;
 	}
 
 	header img {
@@ -111,7 +132,7 @@
 
 	header nav ul li {
 		background-color: rgb(30, 30, 206);
-		padding: 0px 10px;
+		padding: 0% 1%;
 		display: inline;
 	}
 
@@ -125,29 +146,3 @@
 		background-color: rgb(163, 163, 255);
 	}
 }
-
-/*Footer Styles*/
-footer {
-	background-color: rgb(4, 57, 61);
-	color: rgb(212, 247, 246);
-	width: 100%;
-	text-align: center;
-	
-	-webkit-order: 100;
-	order: 100;
-	
-	margin-top: 20px;
-}
-
-footer a {
-	text-decoration: none;
-	color: rgb(212, 247, 246);
-}
-
-footer a:hover {
-	text-decoration: underline;
-	color: blue;
-}
-
-
-

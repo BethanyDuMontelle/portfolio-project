@@ -20,9 +20,6 @@ table tr.contact_info {
 	background-image: radial-gradient(rgb(125, 72, 242) 65%, rgb(175, 146, 239) 35%);
 	width: 20%;
 	height: 50%;
-	
-	border: 8px double rgb(35, 6, 99);
-	border-radius: 10px;
 }
 
 table tr.contact_info {
@@ -33,6 +30,7 @@ table tr.contact_info img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 75%;
 }
 
 table tr.contact_info a, table tr.contact_info p{

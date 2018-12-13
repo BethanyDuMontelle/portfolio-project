@@ -10,8 +10,8 @@ aside {
 	
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
 	
 	font-size: 1.2em;
 	
@@ -21,15 +21,18 @@ aside {
 aside#art_aside, aside#website_aside {
 	width: 15%;
 	height: 22%;
+	
+	/*Sets minumum so the text doesn't become scrunched up; it changes to the mobile view
+	and removes the aside before it could become an issue due to the screen width*/
 	min-width: 150px;
-	min-height: 185px;
 }
 
 aside#program_aside {
 	width: 20%;
 	height: 30%;
+	
+	/*Same thing here with the minumum*/
 	min-width: 200px;
-	min-height: 300px;
 }
 
 aside p a {

@@ -1,7 +1,7 @@
- 
+ /*Section Styles and only that in this css*/
 section {
 	width: 40%;
-	height: 225px;
+	height: 50%;
 	
 	margin-left: auto;
 	margin-right: auto;
@@ -18,16 +18,17 @@ section {
 }
 
 section h2 {
-	margin-left: 10px;
+	margin-left: 2%;
 }
 
-/*places sections vertically in mobile*/
+/*places sections vertically in mobile and overflows if you have a super small screen*/
 @media only screen and (max-width: 480px) {
 	section {
 		width: 95%;
+		overflow: auto;
 	}
 	
 	section:nth-of-type(2) {
-		margin-top: 10px;
+		margin-top: 1%;
 	}
 }
