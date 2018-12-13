@@ -1,17 +1,18 @@
 /* General Styles */
-section {
-	margin-left: 10px;
+table {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Greeting Styles */
 
-section#greeting {
+table tr.greeting {
 	color: rgb(65, 48, 104);
 	text-align: center;
 }
 
 /* Contact Info Styles*/
-section#contact_info {
+table tr.contact_info {
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -19,34 +20,33 @@ section#contact_info {
 	background-image: radial-gradient(rgb(125, 72, 242) 65%, rgb(175, 146, 239) 35%);
 	width: 20%;
 	height: 50%;
-	min-height: 550px;
-	min-width: 300px;
 	
 	border: 8px double rgb(35, 6, 99);
 	border-radius: 10px;
 }
 
-section#contact_info h3, section#contact_info p {
+table tr.contact_info {
 	text-align: center;
 }
 
-section#contact_info img {
+table tr.contact_info img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-section#contact_info a, section#contact_info p{
+table tr.contact_info a, table tr.contact_info p{
 	color: white;
 	font-size: 1.1em;
 }
 
-section#contact_info a:hover {
+table.contact_info a:hover {
 	color: blue;
 }
 
-/*adding a small thing to the mobile website*/
+/*adds color to contact info*/
 @media only screen and (max-width: 480px) {
-	section#contact_info a {
+	table tr.contact_info a {
 		background-color: black;
 	}
+}

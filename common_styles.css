@@ -37,8 +37,12 @@
 	   display: none;
    }
    
-   h2, p, section, aside {
+   h2, p, section, aside, table {
 	   clear: both;
+   }
+   
+   footer {
+	   width: 100%;
    }
 }
 
