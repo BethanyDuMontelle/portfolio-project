@@ -2,6 +2,8 @@
 table {
 	margin-left: auto;
 	margin-right: auto;
+	width: 50%;
+	height: 50%;
 }
 
 /* Greeting Styles */
@@ -18,8 +20,6 @@ table tr.contact_info {
 	
 	background-color: rgb(174, 149, 229);
 	background-image: radial-gradient(rgb(125, 72, 242) 65%, rgb(175, 146, 239) 35%);
-	width: 20%;
-	height: 50%;
 }
 
 table tr.contact_info {
@@ -42,9 +42,20 @@ table.contact_info a:hover {
 	color: blue;
 }
 
-/*adds color to contact info*/
+/*removes mobile greeting*/
+@media only screen and (min-width: 481px) {
+	p#mobile_greet {
+		display: none;
+	}
+}
+
+/*adds color to contact info and removes normal greeting*/
 @media only screen and (max-width: 480px) {
 	table tr.contact_info a {
 		background-color: black;
+	}
+
+	p#normal_greet {
+	display: none;
 	}
 }

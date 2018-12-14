@@ -1,11 +1,19 @@
-/*Sets the color of the links, sets the width of the video, and spaces the tables*/
+/*Sets the color of the links, sets the width of the video and pictures in the java table, and spaces the tables*/
 table tr td p a {
 	color: rgb(89, 26, 173);
 }
 
+table tr td img {
+	width: 40%;
+}
+
+img.shrink {
+	width: 15%;
+}
+
 video {
 	width: 30%;
-	
+} 
 	/*sets the minumum so the controls aren't hidden on any screen*/
 	min-width: 200px;
 }

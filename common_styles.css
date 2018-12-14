@@ -66,7 +66,13 @@ footer a:hover {
    h2, p, section, aside, table {
 	   clear: both;
    }
+
+/*Hides break since it's not needed here*/
+   br#hidden {
+	   display: none;
+   }
 }
+
 
 /* =================================================
 	Tablet and Desktop Styles: 481 pixels and greater
@@ -146,3 +152,12 @@ footer a:hover {
 		background-color: rgb(163, 163, 255);
 	}
 }
+
+/*Makes sure break won't activate unless it's under 620 px,
+  where it gets broken up*/
+@media only screen and (min-width: 620px) {
+	br#hidden {
+	display: none;
+	}
+}
+

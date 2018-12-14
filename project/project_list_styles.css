@@ -1,3 +1,9 @@
+div {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 p {
 	text-align: center;
 	font-size: 1.5em;
@@ -12,7 +18,7 @@ section {
 	width: 50%;
 	height: 50%;
 	
-	/*Prevents text from overflowing if the screen is very small*/
+	/*Prevents text from overflowing the box if the screen is very small*/
 	min-width: 100px;
 	
 	text-align: center;
